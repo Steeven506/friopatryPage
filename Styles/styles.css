@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: "Montserrat";
+
+    
+}
+
+body{
+    background-color: #e2e2e2;
+    color: #fff;
+}
+.navegationNav{
+    background-color:#cccccf;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 5px 10%;
+}
+
+.navegationNav .options{ 
+    list-style: none;
+    font-size: medium;
+    font-family: "Poppins";
+    color: #1c3150;
+    
+}
+.navegationNav .options li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.banner{
+    display: flex;
+    flex-flow: column;
+    height: 90vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    background-color: rgb(70, 70, 70);
+    background-image:url(../source/pexels-jose-andres-pacheco-cortes-3641213-5463581.jpg);
+    background-blend-mode:hard-light;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 7em 3%;
+}
+
+
+
+.titulo{
+   
+    font-size: 2.5rem;
+}
+
+.textoBanner{
+    padding-top: 25px;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+.boton{
+    color: #1c3150;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius:4rem;
+    height:3em;
+    width:12em;
+    background-color: #fceb4b;
+    margin: 0 auto;
+    font-weight: bold;
+    margin-top: 5rem;
+    border: solid;
+    transition: .3s ease;
+
+}
+
+.boton:hover{
+    cursor: pointer;
+    color: #fceb4b;
+    background-color: #1c3150;
+    -webkit-box-shadow: 0px 0px 36px 2px rgba(176,176,176,1);
+    -moz-box-shadow: 0px 0px 36px 2px rgba(176,176,176,1);
+    box-shadow: 0px 0px 36px 2px rgba(176,176,176,1);
+    
+
+}
+.servicios{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.nuestrosServicios{
+    font-weight: bold;
+    border-radius: 1em;
+    margin-top:  1em;
+    margin-bottom: 0.5em;
+    padding:  1em;
+    font-size: 40px;
+    color: #1c3150;
+    
+}
+section{
+    display: flex;
+    width: 90vw;
+    height: 80vh;
+    margin-bottom: 1em;
+
+}
+.divMenu1{
+    
+    background-image: url(/source/aires/aire2ParaMenu1.jpg);
+    background-color: #4f4f4f;
+    background-blend-mode:soft-light;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.divMenu2{
+    background-image: url(/source/lavadoras/lavadora2.jpg);
+    background-color: #4f4f4f;
+    background-blend-mode:soft-light;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.divMenu3{
+    background-image: url(/source/nevera/nevera.png);
+    background-color: #4f4f4f;
+    background-blend-mode:soft-light;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section div{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .9;
+    transition: .5s ease;
+}
+section h1{
+    font-size: 30px;
+    padding: 20px;;
+    margin-top: 15em;
+    z-index: 1;
+}
+section div:hover{
+    cursor: pointer;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+    color: #fceb4b;
+    
+}
+
+footer{
+    background-color: #1c3150;
+    height: 50vh;
+    
+}
+.lineaFooter{
+    height: 6px;
+    background-color: #fceb4b;
+}
+.divTituloFooter{
+    padding-top: 15px;
+    margin: 15px;
+}
+.divFooter{
+    margin: 15px;
+    display: flex;
+    flex-flow: row;
+    justify-content:space-between;
+}
+footer a{
+    color: #e2e2e2;
+    text-decoration: none;
+    list-style: none;
+    
+}
+footer a:hover{
+    color: #fceb4b;
+}
+footer ul{
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+footer li{
+    padding: 2px;
+    display: inline-block;
+}
