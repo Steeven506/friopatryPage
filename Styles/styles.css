@@ -5,15 +5,18 @@
     padding: 0;
     font-size: 20px;
     font-family: "Montserrat";
-
-    
+  
 }
-
+a{
+    text-decoration: none;
+}
 body{
     background-color: #e2e2e2;
     color: #fff;
 }
 .navegationNav{
+    color: #1c3150;
+    text-decoration: none;
     background-color:#cccccf;
     margin: 0;
     padding: 0;
@@ -25,16 +28,19 @@ body{
     padding: 5px 10%;
 }
 
-.navegationNav .options{ 
-    list-style: none;
-    font-size: medium;
-    font-family: "Poppins";
-    color: #1c3150;
-    
-}
 .navegationNav .options li{
+    list-style: none;
+    color: #1c3150;
+    text-decoration: none;
     display: inline-block;
     padding: 0 20px;
+}
+.navegationNav a{
+    color: #1c3150;
+}
+
+.navegationNav a:hover{
+    color: #1c3150;
 }
 
 .banner{
@@ -185,13 +191,13 @@ footer{
     justify-content:space-between;
 }
 footer a{
-    color: #e2e2e2;
+    color: #fceb4b;;
     text-decoration: none;
     list-style: none;
     
 }
 footer a:hover{
-    color: #fceb4b;
+    color: #e2e2e2;
 }
 footer ul{
     margin-top: 1em;
