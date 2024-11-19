@@ -4,15 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="../Styles/styles.css">
+    <link rel="stylesheet" href="../Styles/stylesCita.css">
     <title>Agendar cita</title>
 </head>
 
 <body>
     <nav class="navegationNav">
-        <div class="logoFrioPatry">
-            Frio Patry
-        </div>
+        <a href="./inicio.html">
+            <div class="logoFrioPatry">
+            </div>
+        </a>
         <div class="options">
 
             <li><a href="../html/agendar.html">Agendar Cita</a></li>
@@ -22,13 +25,46 @@
         </div>
         <div class="options">
 
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
+            <a href="../html/login.html"><li><i class='bx bx-cart' ></i></li></a>
+            <a href="../html/login.html"><li><i class='bx bx-search-alt-2' ></i></li></a>
+            <a href="../html/login.html"><li><i class='bx bxs-user' ></i></li></a>
 
         </div>
     </nav>
-
+    <div class="formularioCitas">
+        <div class="formulario">
+            <form action="">
+           
+                <h1>Agendar Cita</h1>
+                <div class="input-box">
+                     <input type="text" placeholder="Usuario" required>
+                     <i class='bx bxs-user'></i>
+                 </div>
+                 <div class="input-box">
+                     <input type="text" placeholder="Numero de documento" required>
+                     <i class='bx bx-id-card'></i>
+                 </div>
+                 <div class="input-box">
+                     <input type="text" placeholder="Numero de contacto" required>
+                     <i class='bx bxs-phone' ></i>
+                 </div>
+                 <div class="input-box">
+                     <input type="email" placeholder="Correo eléctronico" required>
+                     <i class='bx bxs-envelope' ></i>
+                 </div>
+                 <div class="inputCalendar">
+                    <input type="time" placeholder="Hora" required>
+                </div>
+                 <div class="inputCalendar">
+                     <input type="date" placeholder="fecha" required>
+                 </div>
+                 <div>
+                     <button class="btn" type="submit">Enviar</button>
+                 </div>
+             </form>
+        </div>
+        
+    </div>
 
     <footer>
         <div class="divTituloFooter">Taller FrioPatry</div>

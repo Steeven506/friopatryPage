@@ -7,6 +7,10 @@
     font-family: "Montserrat";
   
 }
+.navegationNav i{
+    color: #333;
+    font-size: 25px;
+}
 a{
     text-decoration: none;
 }
@@ -22,10 +26,10 @@ body{
     padding: 0;
     display: flex;
     flex-flow: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    height: 80px;
-    padding: 5px 10%;
+    height: 70px;
+    padding: 5px 10px;
 }
 
 .navegationNav .options li{
@@ -41,6 +45,16 @@ body{
 
 .navegationNav a:hover{
     color: #1c3150;
+}
+
+.logoFrioPatry{
+    height: 60px;
+    width: 200px;
+    background-image: url(../source/logos/frioPatry_Mesa\ de\ trabajo\ 1.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
 }
 
 .banner{
@@ -209,4 +223,125 @@ footer ul{
 footer li{
     padding: 2px;
     display: inline-block;
+}
+
+.infoPersonal{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    color: #333;
+    
+}
+
+.infoPersonal h1{
+    margin: 20px;
+    font-size: 50px;
+}
+.infoPersonal p{
+    margin: 20px;
+    font-size: 30px;
+}
+.infoPersonal i{
+    font-size: 30px;
+}.imagenTecnico{
+    height: 80vh;
+    width: 40vw;
+    background: url(../source/otros/Imagen\ de\ WhatsApp\ 2024-11-18\ a\ las\ 14.12.21_4871e5f6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid #1c3150;
+    border-radius: 50px;
+}
+
+.contedorPreguntas{
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 20px;
+    color: #171717;
+    -webkit-box-shadow: 0px 0px 42px -11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 42px -11px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 42px -11px rgba(0,0,0,0.75);
+    height: 80vh;
+    background: #dbdbdb;
+
+}
+
+.soluciones h1{
+    font-size: 40px;
+    justify-content: center;
+    text-align: center;
+}
+.respuestas{
+    
+   display: flex;
+   flex-flow: row;
+   text-align: justify;
+   margin: 20px;
+   padding: 20px;
+}
+
+.contedorPreguntas li{
+    margin: 30px;
+    font-size: 22px;
+}
+.inseguro{
+    margin-top: 60px;
+    text-align: center;
+}
+.inseguro button{
+    margin: 20px;
+    border: 3px solid #1c3150;
+    background: #fceb4b;
+    border-radius: 20px;
+    height: 50px;
+    width: 200px;
+}
+.inseguro button:hover{
+    cursor: pointer;
+    background: #1c3150;
+    border: 3px solid #fceb4b;
+    color: #e2e2e2;
+}
+.contenedorContactanos{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    color: #171717;
+    
+}
+.contenedorContactanos h1{
+    font-size: 50px;
+}
+.contenedorContactanos p{
+    margin-top: 10px;
+    text-align: justify;
+    font-size:  22px;
+}
+.imagenEmpresa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    height: 80vh;
+}
+.empresa{
+    background: url(../source/otros/mapFrioPatry.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50vh;
+    width: 40em;
+    border-radius: 20px;  
+}
+.estamosUbicados{
+    font-weight: bold;
 }

@@ -1,0 +1,85 @@
+.formularioCitas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 80vw;
+    height: 85vh;
+    position: relative;
+    
+}
+form{
+    width: 100%;
+}
+.formularioCitas h1{
+    font-size: 36px;
+}
+.formulario{
+    color: #eee;
+    position: absolute;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    background: #1c3150;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    border-radius: 50px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .2);
+}
+.input-box{
+    margin: 30px;
+    display: flex;;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+.input-box input{
+    width: 100%;
+    padding: 13px 50px 13px 20px;
+    background: #eee;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #333;
+    font-weight: 500;
+}
+.inputCalendar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #333;
+    font-weight: 500;
+}
+.input-box i{
+    position: relative;
+    color: #333;
+    transform: translateX(-30px);
+}
+.btn{
+    margin: 0 auto;
+    width: 10vw;
+    height: 48px;
+    background: #eee;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #1c3150;
+    font-weight: 600;
+}
+
+.btn:hover{
+    background:  #fceb4b;
+    color: #1c3150;
+}
