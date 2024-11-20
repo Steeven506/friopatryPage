@@ -345,3 +345,108 @@ footer li{
 .estamosUbicados{
     font-weight: bold;
 }
+
+.contenedorCitas{
+    color: #171717;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 40px;
+}
+.contenedorCitas h1{
+    margin: 20px;
+}
+.cita{
+    border-radius: 30px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    margin: 20px;
+    background: #ffffff;
+    height: 20em;
+    width:35em;
+    -webkit-box-shadow: 0px 0px 24px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 24px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 24px -2px rgba(0,0,0,0.75);
+}
+.cita button{
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 220px;
+}
+.cita.realizada button{
+    color: #fceb4b;
+    background: #19880d;
+}
+.cita.cancelada button{
+    color: #fceb4b;
+    background: #ab1e1e;
+}
+.cita.pendiente button{
+    cursor: pointer;
+    color: #1c3150;
+    background: #fceb4b;
+}
+.cita.pendiente button:hover{
+    cursor: pointer;
+    color: #fceb4b;
+    background: #1c3150;
+}
+.contenedorUsuario{
+    color: #171717;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90vh;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 40px;
+}
+.usuarioImage{
+    background: url(../source/imagenesMuestra/Killjoy-best-agent.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    height: 20em;
+    width: 20em;
+}
+.contenedorUsuario button{
+    border: none;
+    border-radius: 20px;
+    color: #1c3150;
+    background: #fceb4b;
+    cursor: pointer;
+    height: 2em;
+    width: 10em;
+}
+.contenedorUsuario button:hover{
+    background: #1c3150;
+    color: #fceb4b;
+}
+.infoUsuario{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.infoUsuario h1{
+    text-align: center;
+    font-size: 45px;
+    padding: 20px;
+}
+.infoUsuario p{
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+}

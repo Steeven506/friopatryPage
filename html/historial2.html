@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="../Styles/styles.css">
     <title>Document</title>
@@ -26,19 +27,21 @@
             <a href="../html/usuario.html"><li><i class='bx bxs-user' ></i></li></a>
         </div>
     </nav>
-
-    <div class="contenedorUsuario">
-        <div class="usuarioImage"></div>
-        <div class="infoUsuario">
-            <h1>Información de usuario</h1>
-            <p> Usuario: Killjoy Böhringer </br>
-                Correo: kj2018@correocaliente.com</br>
-                Numero de contacto: 321 654 6544</br></p>
-            <a href="../html/historial.html"><button>Historial de citas</button></a>
+    <div class="contenedorCitas">
+        <h1>Si tiene un servicio pendiente y desea cancelarlo, haga click sobre el boton "Servicio pendiente"</h1>
+        <div class="cita cancelada">
+            <div><p>Reparación de nevera 22/11/2024 2:30pm</p></div>
+            <div><button disabled>Servicio cancelado</button></div>
         </div>
-        
+        <div class="cita cancelada">
+            <div><p>Reparación de nevera 19/10/2024 4:40pm</p></div>
+            <div><button disabled>Servicio cancelado</button></div>
+        </div>
+        <div class="cita realizada">
+            <div><p>Reparación de nevera 07/09/2024 3:30pm</p></div>
+            <div><button disabled>Servicio realizado</button></div>
+        </div>
     </div>
-
     <footer>
         <div class="divTituloFooter">Taller FrioPatry</div>
         <div class="lineaFooter">
@@ -89,5 +92,6 @@
         
     
     </footer>
+    <script src="../JS/script.js"></script>
 </body>
 </html>
