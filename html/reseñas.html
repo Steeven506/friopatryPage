@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="../Styles/styles.css">
-    <title>Conocenos</title>
+    <title>Document</title>
 </head>
-
 <body>
     <nav class="navegationNav">
         <a href="./inicio.html">
@@ -30,23 +28,38 @@
             <a href="../html/usuario.html"><li><i class='bx bxs-user' ></i></li></a>
         </div>
     </nav>
-
-    <div class="infoPersonal">
-        <div class="datosPersonalEmpresa">
-            <h1>Personal Técnico</h1>
-            <p>Técnico Jesús Chacón Monroy</p>
-            <p><i class='bx bxl-whatsapp' ></i> 311 451 6347</p>
+    <div class="contenedorComentarios">
+        <h2>Comentarios</h2>
+        <div class="comentario">
+            <p class="autor">Usuario1</p>
+            <p class="texto">Excelente servicio, muy profesional y rápido.</p>
         </div>
-        <div class="imagenTecnico">
-            
+        <div class="comentario">
+            <p class="autor">Usuario2</p>
+            <p class="texto">Que bien que dieron con la solución de mi problema.</p>
         </div>
+        <div class="comentario">
+            <p class="autor">Usuario3</p>
+            <p class="texto">Muy satisfecho con la reparación de mi aire acondicionado.</p>
+        </div>
+        <div class="comentario">
+            <p class="autor">Usuario4</p>
+            <p class="texto">*****</p>
+        </div>
+        <div class="comentario">
+            <p class="autor">Usuario5</p>
+            <p class="texto">Excelente servicio, definiticamente los mejores de Ocaña.</p>
+        </div>
+        <form class="formularioComentarios">
+            <h4>Tenga en cuenta que si utiliza palabras ofensivas puede ser baneado y su comentario será censurado.</h4></br>
+            <label for="comentario">Comentario:</label>
+            <textarea id="comentario" name="comentario" placeholder="Escribe tu comentario" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
     </div>
-
     <footer>
         <div class="divTituloFooter">Taller FrioPatry</div>
-        <div class="lineaFooter">
-
-        </div>
+        <div class="lineaFooter"></div>
         <div class="divFooter">
 
             <div>
@@ -101,5 +114,4 @@
 
     </footer>
 </body>
-
 </html>
